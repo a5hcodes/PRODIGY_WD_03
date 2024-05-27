@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.tic-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#reset:hover {
+    background-color: lightgray;
+}
