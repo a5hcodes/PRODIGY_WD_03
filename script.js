@@ -1,5 +1,3 @@
-// script.js
-
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
 
